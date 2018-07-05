@@ -1,0 +1,16 @@
+.img {
+    -webkit-filter: grayscale(100%);
+    -moz-filter:    grayscale(100%);
+    -ms-filter:     grayscale(100%);
+    -o-filter:      grayscale(100%);
+    filter: grayscale(100%);
+    width: 20%; 
+}
+
+.img--color {
+    width: 20%; 
+	filter: grayscale(0%);
+}
+img:hover {
+    cursor: pointer;
+}
